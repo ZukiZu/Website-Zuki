@@ -97,3 +97,49 @@ footer{
 .reference{
     font-size: 10px;
 }
+
+.begnn{
+    
+    height: 109vh;
+    width: 100%;
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+}
+
+.logo{
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 80px;
+    margin: 0 50px;
+    }
+
+    nav ul{
+        float: right;
+        margin-right: 120px;
+    }
+    
+    nav ul li{
+        display: inline-block;
+        margin-right: 60px;
+        margin-top: 20px;
+    }
+    
+    nav ul li a{
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    }
+
+    nav ul li a:hover {
+     color: black;
+     transition: .4s;
+    }
+    
+    a.active{
+        background: white;
+        color:  black;
+        padding: 10px 30px;
+        border-radius: 5px;
+    }
